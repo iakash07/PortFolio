@@ -1,5 +1,35 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
+/*:root {
+  --blue: #495f83;
+  --indigo: #ba4c81;
+  --purple: #643a9b;
+  --pink: #da8db1;
+  --red: #b44050;
+  --orange: #cda65a;
+  --yellow: #efd15c;
+  --green: #88a925;
+  --teal: #7b3fc8;
+  --cyan: #74e5eb;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #F85C70;
+  --secondary: #6c757d;
+  --success: #A3C14A;
+  --info: #47D8E0;
+  --warning: #FF8882;
+  --danger: #643a9b;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Source Sans Pro", sans-serif;
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}*/
 
 *,
 *::before,
@@ -11158,14 +11188,12 @@ p {
 
 .portfolio .filters a:hover {
   opacity: .9;
-  background: #F85C70;
 }
 
 .portfolio .filters a.active {
   opacity: 1;
   background: #F85C70;
   color: #fff;
-  
 }
 
 .portfolio .portfolio-container .portfolio-item {
@@ -11180,7 +11208,7 @@ p {
 }
 
 .portfolio .portfolio-container .portfolio-item .content-holder {
-  position: absolute;
+  position:absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -11191,7 +11219,7 @@ p {
   background: rgba(248, 92, 112, 0.8);
   display: -webkit-box;
   display: -webkit-flex;
-  display: -ms-flexbox;
+  display: -ms-flex;
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -11283,7 +11311,7 @@ p {
 .blog-card .content-holder .read-more {
   text-decoration: none;
   margin-top: 20px;
-  display: block;
+  display: inline-block;
   font-size: 13px;
 }
 
@@ -11292,7 +11320,7 @@ p {
   top: 1px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 900.98px) {
   .blog-card {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -11640,5 +11668,3 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
-
-

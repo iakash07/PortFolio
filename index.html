@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="raksh/css/akash.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+<body data-spy="scroll" data-target=".navbar" data-offset="100" id="home">
     <header class="header">
         <div class="container">
             <ul class="social-icons pt-3">
@@ -39,7 +39,7 @@
             </div>
         </div>
     </header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="490">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="490" >
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -59,7 +59,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
-                    <img src="raksh/imgs/Akash.jpg" alt="" class="brand-img">
+                    <img src="raksh/imgs/Akash.jpg" style="height: 130px; width: 130px;" alt="" class="brand-img">
                    
                 </ul>
                 <ul class="navbar-nav ml-auto">
@@ -119,7 +119,7 @@
                 <div class="row">
                     <div class="col-1 text-dark pt-1"><i class="ti-widget icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Front-end Developer</h6>
+                        <h6 style="cursor:pointer; color: brown;">Front-end Developer</h6>
                         <p class="subtitle">Creative and detail-oriented front-end developer.Building and maintaining responsive websites. Proficient in HTML, CSS, JavaScript, and modern frameworks like React. Passionate about creating user-friendly interfaces and improving web performance.</p>
                         <hr>
                     </div>
@@ -127,11 +127,11 @@
                 <div class="row">
                     <div class="col-1 text-dark pt-1"><i class="ti-paint-bucket icon-lg"></i></div>
                     <div class="col-10 ml-auto mr-3">
-                        <h6>Shopify platform</h6>
+                        <h6 style="cursor:pointer; color: brown;">Shopify platform</h6>
                         <p>Currently working on PositivelyPerfect(gurugram)</p>
                         <p class="subtitle">Setting up and configuring Shopify stores, including selecting and
                             customizing themes and Managing product listings, inventory, and collections Configuring
-                            payment gateways, shipping options, and tax settings</p>
+                            payment gateways, shipping options.</p>
                         <hr>
                     </div>
                 </div>
@@ -245,55 +245,59 @@
         <div class="container">
             <h1 class="mb-10"><span class="text-danger">My</span> Portfolio</h1>
             <div class="portfolio">
-                <div class="filters">
-                    <a href="#portfolio-item" data-filter=".new" class="active">Design
-                    </a>
-                   
-                    <a href="#portfolio-item" data-filter=".branding">
-                        ReactLogic
-                    </a>
-                    <a href="#portfolio-item" data-filter=".web">
-                Clone
-                    </a>
+                <div class="filters" style="display: block; text-align: center;">
+                  <a href="#portfolio-item" data-filter=".new" class="active">Projects 
+                    </a> 
+                  
                 </div>
                 <div class="portfolio-container" style="display:flex;">
-                    <div class="col-md-3 col-2 web new">
-                        <div class="portfolio-item">
-                            <img src="raksh/imgs/branding-3.jpg"class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                    <div class="col-md-4 col-lg-4 web new">
+                        <div class="portfolio-item" style="cursor: pointer;">
+                            <img src="raksh/imgs/branding-5.jpg"class="img-fluid"
+                                alt="#">
                             <div class="content-holder">
                                 <div class="text-holder">
-                                    <h6 class="title">Clone's</h6>
-                                    <p class="subtitle">Created multiple clones added in my GitHub</p>
+                                    <h6 class="title">Clones and Projects</h6>
+                                    <p class="subtitle">I created and added some project clones and original projects to my GitHub</p>
                                 </div>
                             </div>
                     </div>
+                    <a href="https://github.com/iakash07" target="_blank" >
+                        <button type="button" class="btn btn-outline-secondary">ViewGitHub</button>
+                    </a>
 
                     </div>
                     
-                    <div class="col-md-6 col-lg-4 branding new">
-                        <div class="portfolio-item">
-                            <img src="raksh/imgs/branding-5.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                    <div class="col-md-4 col-lg-4 branding new">
+                        <div class="portfolio-item" style="cursor: pointer;">
+                            <img src="raksh/imgs/news.png" class="img-fluid"
+                                alt="">
                             <div class="content-holder">
                                 <div class="text-holder">
-                                    <h6 class="title">Real-Time News Application</h6>
-                                    <p class="subtitle">I developed this application using React, leveraging its features to create a dynamic and responsive user interface</p>
+                                    <h6 class="title">NewsApplication</h6>
+                                    <p class="subtitle">Developed using React, Node.js and Express.js leveraging its features to create a dynamic and responsive user interface. Deployed using AWS</p>
                                 </div>
                             </div>
                         </div>
+                        <a href="http://54.147.9.18:8080/" target="_blank">
+                            <button type="button" class="btn btn-outline-secondary">View Site</button>
+                        </a>
                     </div>
-                    <div class="col-md-6 col-lg-4 branding">
-                        <div class="portfolio-item">
-                            <img src="raksh/imgs/web-3.jpg" class="img-fluid"
-                                alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                    <div class="col-md-4 col-lg-4 branding">
+                        <div class="portfolio-item" style="cursor: pointer;">
+                            <img src="raksh/imgs/music.png" class="img-fluid"
+                                alt="">
                             <div class="content-holder">
                                 <div class="text-holder">
                                     <h6 class="title">MusicApplication</h6>
-                                    <p class="subtitle">I have created with the help of HTML5, CSS3, JavaScript, and Bootstrap. It features a user-friendly interface with responsive design, ensuring accessibility on all devices. The site includes sections for my music library of an immersive experience. </p>
+                                    <p class="subtitle">The site includes sections for my music library of an immersive experience.</p>
                                 </div>
                             </div>
                         </div>
+                        <a href="https://musicgetready.netlify.app/" target="_blank">
+                        <button type="button" class="btn btn-outline-secondary">View Site</button>
+                    </a>
+
                     </div>
                 </div>
             </div>
